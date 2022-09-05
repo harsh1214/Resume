@@ -1,0 +1,500 @@
+:root {
+    --baseColor: #fc9b03;
+    --lightShade: #c2caf2;
+    --accent: #4bbbf2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-container {
+    position: relative;
+    min-height: 300px;
+    max-height: 500px;
+    margin: 1rem;
+}
+
+.hero-heading-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 20px;
+}
+
+.hero-data {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    grid-gap: 1rem;
+}
+
+.hero-heading {
+    border-left: #fc9b03 solid 0.5rem;
+    padding: 5px;
+}
+
+.card-text,
+.hero-text {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.ss-container,
+.education-container,
+.project-container {
+    padding: 3rem 1rem 1rem 1rem;
+}
+
+.ss-card,
+.ss-heading-container,
+.education-heading-container,
+.project-heading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 5px 0;
+    font-size: 1.3rem;
+}
+
+.edu-card,
+.project-data-card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 2rem 0;
+    border: none;
+    border-radius: 0.2rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    padding: 1.5rem;
+    max-width: auto;
+}
+
+.card-heading {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem
+}
+
+.card-text {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.card-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-button {
+    border: none;
+    background-color: #fc9b03;
+    color: #fff;
+    font-size: 0.8rem;
+    padding: 0.56rem;
+    border-radius: 0.1rem;
+}
+
+.card-link {
+    outline: none;
+}
+
+.card-button:focus {
+    outline: none;
+    border: none;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 0.2rem;
+}
+
+.card-body-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    grid-gap: 10px;
+    margin-bottom: 0.5rem;
+}
+
+.edu-card-heading {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.card-body-text {
+    font-size: 0.9rem;
+}
+
+.edu-logo {
+    width: 30px;
+}
+
+.strength-container,
+.skill-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 2rem 0;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    ;
+    max-width: auto;
+}
+
+.ss-card-heading {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+}
+
+.ss-ul {
+    list-style: none;
+}
+
+.ss-li {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 2rem;
+    grid-gap: 1rem;
+}
+
+.ss-icon {
+    width: 0.9rem;
+}
+
+.footer-container {
+    background-color: #000;
+    color: #fff;
+    height: 320px;
+    padding: 3rem 1rem 1rem 1rem;
+}
+
+.footer-heading-container {
+    margin-bottom: 1.5rem;
+}
+
+.footer-head {
+    border-left: #fc9b03 solid 0.3rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding-left: 0.5rem;
+    margin-bottom: 0.7rem;
+}
+
+.footer-card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.footer-card-heading {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    border-left: #fc9b03 solid 0.3rem;
+    padding-left: 0.5rem;
+}
+
+.footer-data {
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #fff;
+    margin: 5px;
+}
+
+.footer-link-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    line-height: 8px;
+}
+
+.footer-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer-link-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 10px;
+}
+
+.navbar-container{
+    padding: 0.5rem 1rem;
+}
+
+.nav-subContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-ul{
+    display: none;
+}
+
+#menu-icon{
+    font-size: 1.2rem;
+}
+
+.nav-heading-2,
+#menu-icon{
+    display: inline;
+}
+
+.nav-subContainer{
+    position: relative;
+    z-index: 1;
+}
+
+.navbar-add{
+    width: 100vw;
+    height: 100vh;
+    background-color: #fc9b03;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+
+.nav-heading-add{
+    font-size: 1.6rem;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 2rem 1rem 2rem;
+}
+
+.navbar-add > .nav-link{
+    text-decoration: none;
+    color: #fff;
+    width: 100%;
+    padding: 0 1rem;
+}
+
+.cross-menu{
+    display: none !important;
+}
+
+#cross-icon{
+    display: block !important;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 1.2rem 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.navbar-li-add{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    grid-gap: 0.6rem;
+    height: 50px;
+    cursor:default;
+}
+
+.nav-link:hover{
+    background-color: #fff;
+    color: #fc9b03;
+}
+
+@media screen and (min-width: 662px) {
+    .nav-ul{
+        width: 500px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .nav-li{
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        grid-gap: 0.5rem;
+    }
+
+    .nav-link{
+        text-decoration: none;
+        color: #000;
+        margin: 0 0.5rem;
+    }
+
+    .nav-link:hover{
+        color: #fc9b03;
+    }
+
+    #cross-icon,
+    .nav-heading-2,
+    #menu-icon{
+        display: none !important;
+    }
+
+    .edu-main-body{
+        margin-bottom: 0;
+    }
+
+    .hero-heading-container {
+        flex-direction: row;
+    }
+
+    .hero-data {
+        width: 70%;
+    }
+
+    .footer-card-heading,
+    .footer-head {
+        padding-left: 1rem;
+    }
+
+    .project-main-body {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+    }
+
+    .card-text {
+        flex-grow: 1;
+    }
+
+    .hero-container {
+        min-height: auto;
+    }
+
+    .edu-main-body {
+        margin: 2rem 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+    }
+
+    .edu-card {
+        margin: 0%;
+    }
+
+    .ss-main-body {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+    }
+
+    .footer-main-body {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 1rem;
+    }
+
+    .footer-container {
+        height: auto;
+    }
+
+    .footer-heading-container {
+        margin: 1rem 0;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .nav-link{
+        margin: 0 1rem;
+    }
+
+    .nav-ul{
+        width: 700px;
+    }
+
+    .hero-heading-container {
+        flex-direction: row;
+    }
+
+    .hero-data {
+        width: 50%;
+        max-width: 500px;
+    }
+
+    .hero-container {
+        min-height: 300px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        padding: 2rem 10%;
+    }
+
+    .navbar-container{
+        padding: 0.5rem 10%;
+    }
+
+    .hero-container{
+        margin: 0;
+    }
+
+    p {
+        font-size: 1.1rem;
+    }
+
+    .footer-card-heading,
+    .footer-card-head {
+        font-size: 1.5rem;
+    }
+
+    .hero-heading {
+        font-size: 2rem;
+    }
+
+    .footer-head,
+    .education-heading-container,
+    .ss-heading-container,
+    .project-heading-container {
+        font-size: 1.7rem;
+    }
+
+    .edu-card-heading,
+    .ss-card-heading,
+    .card-heading {
+        font-size: 1.5rem;
+    }
+
+    .navbar-li-add{
+        padding: 0.5rem;
+    }
+}
