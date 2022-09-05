@@ -17,3 +17,7 @@ const navbarSwitch = () => {
         bar.classList.add('navbar-add');
     }
 }
+
+const closeNav = () => {
+    bar.classList.remove('navbar-add');
+}
